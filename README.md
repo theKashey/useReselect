@@ -1,6 +1,8 @@
 useReselect
 ===
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/theKashey/useReselect.svg)](https://greenkeeper.io/)
+
 __DEVELOPMENT PREVIEW__
 
 This is a fork of [reselect](https://github.com/reduxjs/reselect), mixed with [kashe](https://github.com/theKashey/kashe) and React `hooks`.
