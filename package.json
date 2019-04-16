@@ -1,7 +1,7 @@
 {
   "name": "use-reselect",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.0.2",
+  "description": "Hooks friendly reselect",
   "main": "dist/es5/index.js",
   "scripts": {
     "test": "ts-react-toolbox test",
@@ -15,8 +15,8 @@
     "format": "ts-react-toolbox format",
     "analyze": "ts-react-toolbox analyze"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "theKashey <thekashey@gmail.com>",
+  "license": "MIT",
   "devDependencies": {
     "ts-react-toolbox": "^0.2.2",
     "typescript": "^3.4.3"
@@ -36,8 +36,8 @@
   "resolutions": {
     "typescript": "^3.0.0"
   },
-  "keywords": [],
-  "repository": "",
+  "keywords": ["reselect","hooks","memoization"],
+  "repository": "https://github.com/theKashey/useReselect",
   "dependencies": {
     "kashe": "^0.2.0"
   }
