@@ -5,6 +5,11 @@ __DEVELOPMENT PREVIEW__
 
 This is a fork of [reselect](https://github.com/reduxjs/reselect), mixed with [kashe](https://github.com/theKashey/kashe) and React `hooks`.
 
+# Idea
+Make `reselect` more `hooks` compatible by providing automatic per-instance memoization. To achive this
+_memoized_ value would not be stored just _inside_ `createSelector`, but also inside per-instance `WeakMap` 
+with `selector` used a key.
+
 # API
 API is 100% compatible with Reselect.
 
