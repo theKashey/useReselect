@@ -1,0 +1,44 @@
+{
+  "name": "use-reselect",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/es5/index.js",
+  "scripts": {
+    "test": "ts-react-toolbox test",
+    "bootstrap": "ts-react-toolbox init",
+    "dev": "ts-react-toolbox dev",
+    "test:ci": "ts-react-toolbox test --runInBand --coverage",
+    "build": "ts-react-toolbox build",
+    "release": "ts-react-toolbox release",
+    "lint": "ts-react-toolbox lint",
+    "static": "ts-react-toolbox publish",
+    "format": "ts-react-toolbox format",
+    "analyze": "ts-react-toolbox analyze"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-react-toolbox": "^0.2.2",
+    "typescript": "^3.4.3"
+  },
+  "engines": {
+    "node": ">=8.5.0"
+  },
+  "peerDependencies": {
+    "react": "^16.8.5"
+  },
+  "jsnext:main": "dist/es2015/index.js",
+  "module": "dist/es2015/index.js",
+  "types": "dist/es5/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "resolutions": {
+    "typescript": "^3.0.0"
+  },
+  "keywords": [],
+  "repository": "",
+  "dependencies": {
+    "kashe": "^0.2.0"
+  }
+}
